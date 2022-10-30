@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQueryの練習</title>
+    <style>
+        .red-text{
+            color:red;
+            font-weight: bold;
+        }
+        .green-text{
+            color:green;
+            font-weight: bold;
+        }
+        li {
+            cursor: pointer;
+        }
+        li:hover:after {
+            content: '[x]';
+            font-size: 14px;
+            color: #aaa;
+            margin-left: 4px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="tgttext">
+    <button>Go!</button>
+    <ul>
+    </ul>
+
+    <p><img src="image1.jpg"></p>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
